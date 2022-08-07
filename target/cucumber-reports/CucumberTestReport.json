@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-07T09:46:13.593Z",
+        "before": [
+          {
+            "result": {
+              "duration": 22899713000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "testrkgrp.testrkaid.common.BaseTest.setup()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Verify user can navigate to Contact Us",
+        "description": "",
+        "id": "ecommerce-home-feature;verify-user-can-navigate-to-contact-us",
+        "after": [
+          {
+            "result": {
+              "duration": 3780181400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "testrkgrp.testrkaid.common.BaseTest.tearUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18000400,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User open up the website",
+            "match": {
+              "location": "testrkgrp.testrkaid.steps.WebsiteHomeSteps.user_open_up_the_websites()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1998200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user clicks on Contact Us link",
+            "match": {
+              "location": "testrkgrp.testrkaid.steps.WebsiteHomeSteps.user_clicks_on_contact_us_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 202519100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Contact Us page opens",
+            "match": {
+              "location": "testrkgrp.testrkaid.steps.WebsiteHomeSteps.contact_us_page_opens()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Ecommerce Home Feature",
+    "description": "",
+    "id": "ecommerce-home-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/testrkgrp/testrkaid/feature/WebsiteHome.feature",
+    "tags": []
+  }
+]
